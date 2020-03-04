@@ -1,6 +1,5 @@
 package com.myyhhuang.apigateway;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.SpringCloudApplication;
@@ -19,5 +18,4 @@ public class ApiGatewayApplication {
 	public AccessFilter accessFilter() {
 		return new AccessFilter();
 	}
-
 }

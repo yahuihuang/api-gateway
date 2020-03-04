@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: api-gateway
+  cloud:
+    config:
+      uri: http://localhost:7001/
 
 eureka:
   instance:
