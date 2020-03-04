@@ -21,3 +21,6 @@ zuul:
     api-a-url:
       path: /api-a-url/**
       url: http://localhost:8080/
+    feign-consumer:
+      path: /api-feign-consumer/**
+      url: http://localhost:9001/
